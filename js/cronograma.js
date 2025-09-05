@@ -4,85 +4,85 @@ const cronogramaData = [
         semana: 1,
         fechas: "05 Sep - 12 Sep 2025",
         fase: "Presentación de la POC",
-        tarea: "Analizar el código base y definir el alcance de la POC.",
-        entregable: "POC presentada y \"vendida\" a la Economista Jefe."
+        tarea: "Revisar el código base y la documentación. Analizar las fuentes de datos (eKOGUI, SIFN, SIM). Conceptualizar el flujo de trabajo del prototipo para la presentación.",
+        entregable: "Prueba de Concepto (POC) presentada a la Economista Jefe y el equipo."
     },
     {
         semana: 2,
         fechas: "15 Sep - 19 Sep 2025",
         fase: "Desarrollo I",
-        tarea: "Construir el prototipo de la ficha de conciliación y conectar a las fuentes de datos.",
-        entregable: "Prototipo de ficha de conciliación y documentación de fase."
+        tarea: "Construir la primera versión del prototipo de la ficha de conciliación. Establecer la conexión inicial con las fuentes de datos. Mapear las variables clave para la visualización de los datos históricos.",
+        entregable: "Prototipo funcional de la Ficha de Conciliación."
     },
     {
         semana: 3,
         fechas: "22 Sep - 26 Sep 2025",
         fase: "Desarrollo II",
-        tarea: "Desarrollar el dashboard principal y las fichas de intervención y prevención.",
-        entregable: "Avance de las fichas y del dashboard."
+        tarea: "Desarrollar el dashboard principal para visualizar el comportamiento de la litigiosidad. Iniciar la construcción de las fichas de intervención y prevención, basándose en la información histórica de los procesos judiciales.",
+        entregable: "Avance del dashboard y de las fichas de intervención y prevención."
     },
     {
         semana: 4,
         fechas: "29 Sep - 03 Oct 2025",
         fase: "Pruebas I",
-        tarea: "Realizar pruebas internas y ajustar el diseño.",
-        entregable: "Informe de bugs y mejoras de diseño."
+        tarea: "Realizar pruebas internas del prototipo. Ajustar el diseño gráfico de las fichas y el dashboard.",
+        entregable: "Prototipos funcionales con ajustes iniciales y un informe de bugs."
     },
     {
         semana: 5,
         fechas: "06 Oct - 10 Oct 2025",
         fase: "Pruebas II",
-        tarea: "Realizar pruebas con usuarios finales (procuradores).",
-        entregable: "Feedback de usuarios y entrega de prototipos para uso."
+        tarea: "Planificar y ejecutar pruebas de usabilidad con un grupo focal de procuradores. Recopilar la retroalimentación de los usuarios finales sobre el prototipo.",
+        entregable: "Entrega de los prototipos para uso por parte de los procuradores."
     },
     {
         semana: 6,
         fechas: "13 Oct - 17 Oct 2025",
         fase: "Consolidación",
-        tarea: "Finalizar la documentación del proyecto y la integración con la ANDJE.",
-        entregable: "Documentación técnica y plan de integración."
+        tarea: "Documentar los hallazgos de las pruebas. Finalizar la documentación técnica del proyecto. Integrar los datos de la Agencia Nacional de Defensa Jurídica del Estado (ANDJE).",
+        entregable: "Documentación técnica completa y plan de integración de datos."
     },
     {
         semana: 7,
         fechas: "20 Oct - 24 Oct 2025",
         fase: "Almacenamiento",
-        tarea: "Definir y estructurar la plataforma para el almacenamiento de datos.",
-        entregable: "Esquema de base de datos."
+        tarea: "Definir la estructura de la base de datos para almacenar la información. Configurar la plataforma de almacenamiento para los datos.",
+        entregable: "Plataforma de almacenamiento estructurada y operativa."
     },
     {
         semana: 8,
         fechas: "27 Oct - 31 Oct 2025",
         fase: "Presentación final",
-        tarea: "Preparar y presentar el proyecto consolidado a la dirección.",
-        entregable: "Presentación y informe del proyecto."
+        tarea: "Preparar los materiales para la presentación final del proyecto. Realizar la presentación a la dirección.",
+        entregable: "Presentación final del producto e informe del proyecto."
     },
     {
         semana: 9,
         fechas: "03 Nov - 07 Nov 2025",
         fase: "Capacitación",
-        tarea: "Capacitar a los procuradores en el uso de la herramienta.",
-        entregable: "Plan de capacitación y materiales."
+        tarea: "Diseñar el plan de capacitación para los procuradores. Crear los materiales de entrenamiento y realizar la primera sesión de capacitación.",
+        entregable: "Plan de capacitación y materiales de formación."
     },
     {
         semana: 10,
         fechas: "10 Nov - 14 Nov 2025",
         fase: "Validación",
-        tarea: "Revisar y validar los entregables finales.",
-        entregable: "Informe de validación."
+        tarea: "Revisar los entregables finales con el equipo. Corregir cualquier falla o bug de último momento.",
+        entregable: "Informe de validación y correcciones aplicadas."
     },
     {
         semana: 11,
         fechas: "17 Nov - 21 Nov 2025",
         fase: "Cierre I",
-        tarea: "Completar trámites de vinculación y transferir conocimiento al equipo.",
-        entregable: "Documentos administrativos y archivos."
+        tarea: "Completar los trámites de vinculación y la documentación administrativa. Transferir todo el conocimiento, el código y los documentos al equipo para futuras fases.",
+        entregable: "Documentos administrativos y archivos del proyecto."
     },
     {
         semana: 12,
         fechas: "24 Nov - 28 Nov 2025",
         fase: "Cierre II",
-        tarea: "Finalizar el cierre formal del proyecto.",
-        entregable: "Cierre oficial del proyecto el 30 de noviembre."
+        tarea: "Realizar el cierre formal del proyecto. Entregar los documentos finales para su archivo.",
+        entregable: "Cierre oficial del proyecto el 30 de noviembre de 2025."
     }
 ];
 
