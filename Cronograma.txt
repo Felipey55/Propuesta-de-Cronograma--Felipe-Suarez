@@ -1,0 +1,13 @@
+Semana	Rango de Fechas	Fase	Tarea	Hito/Entregable
+1	05 Sep - 12 Sep 2025	Presentación de la POC	Analizar el código base y definir el alcance de la POC.	POC presentada y "vendida" a la Economista Jefe.
+2	15 Sep - 19 Sep 2025	Desarrollo I	Construir el prototipo de la ficha de conciliación y conectar a las fuentes de datos.	Prototipo de ficha de conciliación y documentación de fase.
+3	22 Sep - 26 Sep 2025	Desarrollo II	Desarrollar el dashboard principal y las fichas de intervención y prevención.	Avance de las fichas y del dashboard.
+4	29 Sep - 03 Oct 2025	Pruebas I	Realizar pruebas internas y ajustar el diseño.	Informe de bugs y mejoras de diseño.
+5	06 Oct - 10 Oct 2025	Pruebas II	Realizar pruebas con usuarios finales (procuradores).	Feedback de usuarios y entrega de prototipos para uso.
+6	13 Oct - 17 Oct 2025	Consolidación	Finalizar la documentación del proyecto y la integración con la ANDJE.	Documentación técnica y plan de integración.
+7	20 Oct - 24 Oct 2025	Almacenamiento	Definir y estructurar la plataforma para el almacenamiento de datos.	Esquema de base de datos.
+8	27 Oct - 31 Oct 2025	Presentación final	Preparar y presentar el proyecto consolidado a la dirección.	Presentación y informe del proyecto.
+9	03 Nov - 07 Nov 2025	Capacitación	Capacitar a los procuradores en el uso de la herramienta.	Plan de capacitación y materiales.
+10	10 Nov - 14 Nov 2025	Validación	Revisar y validar los entregables finales.	Informe de validación.
+11	17 Nov - 21 Nov 2025	Cierre I	Completar trámites de vinculación y transferir conocimiento al equipo.	Documentos administrativos y archivos.
+12	24 Nov - 28 Nov 2025	Cierre II	Finalizar el cierre formal del proyecto.	Cierre oficial del proyecto el 30 de noviembre.

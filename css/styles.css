@@ -1,0 +1,319 @@
+/* Reset y configuración base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 2rem 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+header h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.project-info {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.project-info p {
+    color: #555;
+    font-size: 1.1rem;
+}
+
+.project-info strong {
+    color: #2c3e50;
+}
+
+/* Container principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Controles */
+.controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: #3498db;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background: #95a5a6;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #7f8c8d;
+    transform: translateY(-2px);
+}
+
+#phaseFilter {
+    padding: 0.75rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: white;
+}
+
+/* Timeline View */
+.timeline-container {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 1rem;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: linear-gradient(to bottom, #3498db, #9b59b6);
+    border-radius: 2px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -0.5rem;
+    top: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    background: #3498db;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px #3498db;
+}
+
+.timeline-item.completed::before {
+    background: #27ae60;
+    box-shadow: 0 0 0 3px #27ae60;
+}
+
+.timeline-item.current::before {
+    background: #f39c12;
+    box-shadow: 0 0 0 3px #f39c12;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+.timeline-content {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #3498db;
+}
+
+.timeline-content.completed {
+    border-left-color: #27ae60;
+}
+
+.timeline-content.current {
+    border-left-color: #f39c12;
+}
+
+.timeline-week {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-dates {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-phase {
+    display: inline-block;
+    background: #ecf0f1;
+    color: #2c3e50;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.timeline-task {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.75rem;
+}
+
+.timeline-deliverable {
+    color: #555;
+    font-style: italic;
+}
+
+/* Table View */
+.table-container {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    overflow-x: auto;
+}
+
+.cronograma-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.cronograma-table th,
+.cronograma-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.cronograma-table th {
+    background: #34495e;
+    color: white;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+}
+
+.cronograma-table tr:hover {
+    background: #f8f9fa;
+}
+
+.cronograma-table tr.completed {
+    background: #d5f4e6;
+}
+
+.cronograma-table tr.current {
+    background: #fff3cd;
+}
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-content {
+        padding: 0 1rem;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .project-info {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .timeline-container,
+    .table-container {
+        padding: 1rem;
+    }
+    
+    .timeline {
+        padding-left: 1rem;
+    }
+    
+    .timeline-item {
+        padding-left: 1.5rem;
+    }
+    
+    .cronograma-table {
+        font-size: 0.85rem;
+    }
+    
+    .cronograma-table th,
+    .cronograma-table td {
+        padding: 0.5rem;
+    }
+}
