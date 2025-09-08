@@ -4,50 +4,50 @@ const cronogramaData = [
         semana: 1,
         fechas: "05 Sep - 12 Sep 2025",
         fase: "Presentación de la POC",
-        tarea: "Revisar el código base y la documentación. Analizar las fuentes de datos (eKOGUI, SIFN, SIM). Conceptualizar el flujo de trabajo del prototipo para la presentación.",
+        tarea: "Analizar el código base y la documentación. Definir el alcance de la POC y el flujo de trabajo del prototipo para la presentación.",
         entregable: "Prueba de Concepto (POC) presentada a la Economista Jefe y el equipo."
     },
     {
         semana: 2,
         fechas: "15 Sep - 19 Sep 2025",
         fase: "Desarrollo I",
-        tarea: "Construir la primera versión del prototipo de la ficha de conciliación. Establecer la conexión inicial con las fuentes de datos. Mapear las variables clave para la visualización de los datos históricos.",
+        tarea: "Construir la primera versión del prototipo de la ficha de conciliación. Mapear las variables clave para la visualización de los datos históricos.",
         entregable: "Prototipo funcional de la Ficha de Conciliación."
     },
     {
         semana: 3,
         fechas: "22 Sep - 26 Sep 2025",
-        fase: "Desarrollo II",
-        tarea: "Desarrollar el dashboard principal para visualizar el comportamiento de la litigiosidad. Iniciar la construcción de las fichas de intervención y prevención, basándose en la información histórica de los procesos judiciales.",
-        entregable: "Avance del dashboard y de las fichas de intervención y prevención."
+        fase: "Almacenamiento y Soporte",
+        tarea: "Diseñar la estructura de la base de datos para guardar la información. Configurar la plataforma para almacenar los datos. Desarrollar la funcionalidad para generar un soporte en PDF o formato impreso.",
+        entregable: "Plataforma de almacenamiento estructurada y funcionalidad de exportación a PDF."
     },
     {
         semana: 4,
         fechas: "29 Sep - 03 Oct 2025",
-        fase: "Pruebas I",
-        tarea: "Realizar pruebas internas del prototipo. Ajustar el diseño gráfico de las fichas y el dashboard.",
-        entregable: "Prototipos funcionales con ajustes iniciales y un informe de bugs."
+        fase: "Desarrollo II",
+        tarea: "Desarrollar el dashboard principal. Iniciar la construcción de las fichas de intervención y prevención. Revisar la información del SIM para integrarla. Empezar a mejor el Front para una mejor visualizacion de los datos optenidos.",
+        entregable: "Avance del dashboard y las fichas de intervención y prevención."
     },
     {
         semana: 5,
         fechas: "06 Oct - 10 Oct 2025",
-        fase: "Pruebas II",
-        tarea: "Planificar y ejecutar pruebas de usabilidad con un grupo focal de procuradores. Recopilar la retroalimentación de los usuarios finales sobre el prototipo.",
-        entregable: "Entrega de los prototipos para uso por parte de los procuradores."
+        fase: "Pruebas I y Captura de Información",
+        tarea: "Realizar pruebas internas del prototipo. Implementar la funcionalidad de captura de información en las fichas. Ajustar el diseño gráfico de las fichas y el dashboard.",
+        entregable: "Prototipos funcionales con ajustes iniciales e implementación de la captura de datos."
     },
     {
         semana: 6,
         fechas: "13 Oct - 17 Oct 2025",
-        fase: "Consolidación",
-        tarea: "Documentar los hallazgos de las pruebas. Finalizar la documentación técnica del proyecto. Integrar los datos de la Agencia Nacional de Defensa Jurídica del Estado (ANDJE).",
-        entregable: "Documentación técnica completa y plan de integración de datos."
+        fase: "Pruebas II y Análisis",
+        tarea: "Planificar y ejecutar pruebas de usabilidad con un grupo focal de procuradores. Generar el análisis de textos y preguntas a partir de la información capturada. Recopilar la retroalimentación de los usuarios finales sobre el prototipo.",
+        entregable: "Entrega de los prototipos para uso y un informe de análisis inicial."
     },
     {
         semana: 7,
         fechas: "20 Oct - 24 Oct 2025",
-        fase: "Almacenamiento",
-        tarea: "Definir la estructura de la base de datos para almacenar la información. Configurar la plataforma de almacenamiento para los datos.",
-        entregable: "Plataforma de almacenamiento estructurada y operativa."
+        fase: "Consolidación",
+        tarea: "Documentar los hallazgos de las pruebas. Finalizar la documentación técnica del proyecto. Integrar los datos de la Agencia Nacional de Defensa Jurídica del Estado (ANDJE).",
+        entregable: "Documentación técnica completa y plan de integración de datos."
     },
     {
         semana: 8,
@@ -67,7 +67,7 @@ const cronogramaData = [
         semana: 10,
         fechas: "10 Nov - 14 Nov 2025",
         fase: "Validación",
-        tarea: "Revisar los entregables finales con el equipo. Corregir cualquier falla o bug de último momento.",
+        tarea: "Revisar los entregables finales con el equipo para asegurar que todo esté completo y funcione correctamente. Corregir cualquier falla o bug de último momento.",
         entregable: "Informe de validación y correcciones aplicadas."
     },
     {
