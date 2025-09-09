@@ -2,7 +2,7 @@
 const cronogramaData = [
     {
         semana: 1,
-        fechas: "05 Sep - 12 Sep 2025",
+        fechas: "08 Sep - 12 Sep 2025",
         fase: "Presentación de la POC",
         tarea: "Analizar el código base y la documentación. Definir el alcance de la POC y el flujo de trabajo del prototipo para la presentación.",
         entregable: "Prueba de Concepto (POC) presentada a la Economista Jefe y el equipo."
@@ -24,65 +24,65 @@ const cronogramaData = [
     {
         semana: 4,
         fechas: "29 Sep - 03 Oct 2025",
-        fase: "Desarrollo II",
-        tarea: "Desarrollar el dashboard principal. Iniciar la construcción de las fichas de intervención y prevención. Revisar la información del SIM para integrarla. Empezar a mejor el Front para una mejor visualizacion de los datos optenidos.",
+        fase: "Desarrollo II / Enfoque en DAE",
+        tarea: "Desarrollar el dashboard principal. Iniciar la construcción de las fichas de intervención y prevención. (Viernes 3 de octubre) Asignación de tareas para la página de la direccion de la DAE y el chatbot SIMBOT.",
         entregable: "Avance del dashboard y las fichas de intervención y prevención."
     },
     {
         semana: 5,
         fechas: "06 Oct - 10 Oct 2025",
-        fase: "Pruebas I y Captura de Información",
-        tarea: "Realizar pruebas internas del prototipo. Implementar la funcionalidad de captura de información en las fichas. Ajustar el diseño gráfico de las fichas y el dashboard.",
-        entregable: "Prototipos funcionales con ajustes iniciales e implementación de la captura de datos."
+        fase: "Priorización Proyectos Ernesto",
+        tarea: "(Lunes a Jueves) Desarrollo y soporte a los proyectos del Ingeniero Ernesto. (Viernes) Asignación de tareas para la página de la DAE y el chatbot SIMBOT.",
+        entregable: "Avance en los proyectos del Ingeniero Ernesto."
     },
     {
         semana: 6,
         fechas: "13 Oct - 17 Oct 2025",
-        fase: "Pruebas II y Análisis",
-        tarea: "Planificar y ejecutar pruebas de usabilidad con un grupo focal de procuradores. Generar el análisis de textos y preguntas a partir de la información capturada. Recopilar la retroalimentación de los usuarios finales sobre el prototipo.",
-        entregable: "Entrega de los prototipos para uso y un informe de análisis inicial."
+        fase: "Priorización Proyectos Ernesto",
+        tarea: "(Lunes a Jueves) Desarrollo y soporte a los proyectos del Ingeniero Ernesto. (Viernes) Asignación de tareas para la página de la DAE y el chatbot SIMBOT.",
+        entregable: "Avance en los proyectos del Ingeniero Ernesto."
     },
     {
         semana: 7,
         fechas: "20 Oct - 24 Oct 2025",
-        fase: "Consolidación",
-        tarea: "Documentar los hallazgos de las pruebas. Finalizar la documentación técnica del proyecto. Integrar los datos de la Agencia Nacional de Defensa Jurídica del Estado (ANDJE).",
-        entregable: "Documentación técnica completa y plan de integración de datos."
+        fase: "Pruebas I y Captura de Información",
+        tarea: "Retomar pruebas internas del prototipo del proyecto principal. Implementar la funcionalidad de captura de información en las fichas. Ajustar el diseño gráfico. (Viernes) Asignación de tareas para la página de la DAE y el chatbot SIMBOT.",
+        entregable: "Prototipos funcionales con ajustes iniciales e implementación de la captura de datos."
     },
     {
         semana: 8,
         fechas: "27 Oct - 31 Oct 2025",
-        fase: "Presentación final",
-        tarea: "Preparar los materiales para la presentación final del proyecto. Realizar la presentación a la dirección.",
-        entregable: "Presentación final del producto e informe del proyecto."
+        fase: "Pruebas II y Análisis",
+        tarea: "Planificar y ejecutar pruebas de usabilidad con procuradores. Generar el análisis de textos y preguntas a partir de la información capturada. (Viernes) Asignación de tareas para la página de la DAE y el chatbot SIMBOT.",
+        entregable: "Entrega de los prototipos para uso y un informe de análisis inicial."
     },
     {
         semana: 9,
         fechas: "03 Nov - 07 Nov 2025",
-        fase: "Capacitación",
-        tarea: "Diseñar el plan de capacitación para los procuradores. Crear los materiales de entrenamiento y realizar la primera sesión de capacitación.",
-        entregable: "Plan de capacitación y materiales de formación."
+        fase: "Consolidación",
+        tarea: "Documentar hallazgos y mejoras necesarias. Finalizar la documentación técnica del proyecto. Integrar los datos de la Agencia Nacional de Defensa Jurídica del Estado (ANDJE).",
+        entregable: "Documentación técnica completa y plan de integración de datos."
     },
     {
         semana: 10,
         fechas: "10 Nov - 14 Nov 2025",
-        fase: "Validación",
-        tarea: "Revisar los entregables finales con el equipo para asegurar que todo esté completo y funcione correctamente. Corregir cualquier falla o bug de último momento.",
-        entregable: "Informe de validación y correcciones aplicadas."
+        fase: "Presentación Final",
+        tarea: "Preparar los materiales para la presentación final. Realizar la presentación a la dirección.",
+        entregable: "Presentación final del producto e informe del proyecto."
     },
     {
         semana: 11,
         fechas: "17 Nov - 21 Nov 2025",
-        fase: "Cierre I",
-        tarea: "Completar los trámites de vinculación y la documentación administrativa. Transferir todo el conocimiento, el código y los documentos al equipo para futuras fases.",
-        entregable: "Documentos administrativos y archivos del proyecto."
+        fase: "Capacitación y Cierre I",
+        tarea: "Diseñar el plan de capacitación para los procuradores. Crear los materiales de entrenamiento. Completar trámites de vinculación y transferir conocimiento al equipo.",
+        entregable: "Plan de capacitación y materiales de formación. Documentos administrativos y archivos."
     },
     {
         semana: 12,
         fechas: "24 Nov - 28 Nov 2025",
-        fase: "Cierre II",
-        tarea: "Realizar el cierre formal del proyecto. Entregar los documentos finales para su archivo.",
-        entregable: "Cierre oficial del proyecto el 30 de noviembre de 2025."
+        fase: "Validación y Cierre II",
+        tarea: "Revisar los entregables finales para asegurar que todo esté completo. Realizar el cierre formal del proyecto. Entregar los documentos finales para su archivo.",
+        entregable: "Informe de validación y cierre oficial del proyecto el 30 de noviembre de 2025."
     }
 ];
 
